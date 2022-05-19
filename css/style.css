@@ -1,5 +1,5 @@
 html,
-body {
+body {  
     height: 100%;
     margin: 0;
     padding: 0;
@@ -31,8 +31,7 @@ a {
     background-image: url(../images/bc.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-     
+    background-size: cover;    
 }
 .content.content-mp,
 .content.content-pl {
@@ -42,6 +41,7 @@ a {
     background-color: #976999;
     height: 100px;
     color: #fff;
+    padding-top: 10px;
 
 }
 .container {
@@ -95,7 +95,11 @@ li a {
     justify-content: space-around;
     align-items: center;
 }
+.misto__img img {
 
+    height: 300px;
+    height: 300px;
+}
 .people__img img {
 
     border-radius: 50%;
@@ -105,11 +109,7 @@ li a {
     border: 1px solid #000;
 }
 
-.misto__img img {
 
-    height: 300px;
-    height: 300px;
-}
 
 h2 {
     font-family: 'Roboto', sans-serif;
